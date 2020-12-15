@@ -1,0 +1,236 @@
+.header {
+  background-color: gray;
+  text-align: center;
+  padding: 20px;
+}
+.header h1{
+  font-size: 40px;
+}
+body{
+  background-color:lightcyan ;
+  background-size: cover;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-weight: bold;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+button.about{
+  background-color: transparent;
+  border: none;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: gold;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+li.course-content{
+  display: inline-block
+}
+.course-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.course-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover, button:hover {background-color: #f1f1f1;}
+.course-content a:hover {background-color: #f1f1f1;}
+
+
+.dropdown:hover .dropdown-content  {
+  display: block;
+}
+.course:hover .course-content{
+  display: block;
+}
+navigator.script{
+  background-color: lightgreen;
+}
+.windowdetails{
+  font-size:25px;
+}
+.searchbox input[type=text] {
+  float: center;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  display: block;
+  width: 50%;
+  border: 1px solid #ccc;
+  top:60%;
+  left: 25%;
+  margin: 0;
+  position: absolute;
+}
+
+  
+  .titlesearch {
+  position: absolute;
+  top: 45%;
+   left: 50%;
+   margin-right: -50%;
+  transform: translate(-50%, -50%);
+  
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .searchbox button{
+  float: center;
+  padding: 7px 13px;
+  left: 76%;
+  top: 60%;
+  margin-top:8px;
+  margin-right: 15px;
+  background: #2196F3;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  }
+  .searchbox button:hover{
+    color:#ccc;
+  }
+  .searchbox input[type = text], .searchbox button{
+    float: none;
+    display: block;
+    margin: 0;
+  }
+p.geoL{
+  color:darkblue;
+  font-size: 35px;
+}
+.mylocation h2{
+  color:darkblue;
+  text-decoration: underline;
+  font-size: 40px;
+}
+.filebutton{
+  position: absolute;
+  background-color: rgba(211,211,211, 0.8);
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+#Seresults{
+  background-color: rgba(211,211,211, 0.8);
+  resize: both;
+  overflow: auto;
+  max-width: 55%;
+  top:73%;
+   left: 25%;
+   
+  
+  position: absolute;
+}
+#displayres{
+    background-color: rgba(211,211,211, 0.8)
+
+}
+.downlo{
+  top:67%;
+  left:25%;
+  position: absolute;
+  
+}
+
+#selectFiles{
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+
+}
+#download{
+  background-color: dodgerblue;
+  color:#f9f9f9;
+  border: none;
+}
+#download:hover{
+  color: blue;
+}
+.w3-container{
+  position: absolute;
+ 
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+
+}
+#togglebox{
+  background-color: silver;
+  border: none;
+}
+#togglebox:hover{
+  background-color:yellow;
+}
